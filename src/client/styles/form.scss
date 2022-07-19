@@ -1,0 +1,32 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+    
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    &:hover,&:focus {
+        background-color: lightblue;
+      }
+    
+  }
+  input[type=submit]
+  {
+    background-color: #3498db;
+    &:hover,&:focus {
+        background-color: #4db0f1;
+      }
+  }
+}
